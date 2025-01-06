@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "new-component": "new-component"
+    "new-component": "new-component",
+    "prettier:check": "prettier . --check",
+    "prettier:write": "prettier . --write"
   },
   "dependencies": {
     "bright": "0.8.4",
